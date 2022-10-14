@@ -1,0 +1,7 @@
+.section {
+    height: 65%;
+    width: 65%;
+    margin: auto;
+    background-color: rgb(230, 230, 230);
+    border-radius: 35px;
+}

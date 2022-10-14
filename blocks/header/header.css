@@ -1,0 +1,10 @@
+.header {
+    margin-right: 6%;
+    height: 70%;
+    background-color: rgb(230, 230, 230);
+    border-bottom-right-radius: 35px;
+    grid-column: 1/4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
