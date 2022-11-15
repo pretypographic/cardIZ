@@ -4,4 +4,8 @@
     margin: auto;
     background-color: rgb(230, 230, 230);
     border-radius: 35px;
+    box-shadow: 0 0 15px rgb(173, 173, 173);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }

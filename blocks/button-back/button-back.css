@@ -1,0 +1,17 @@
+.button-back {
+    width: 30px;
+    height: 30px;
+    background-image: url(../../images/__arrow.png);
+    background-size: 100%;
+    position: fixed;
+    top: 50%;
+    left: 40px;
+    opacity: 0.2;
+    z-index: 3;
+    transform: rotate(90deg);
+    transition: opacity 0.4s;
+}
+
+.button-back:hover {
+    opacity: 1;
+}

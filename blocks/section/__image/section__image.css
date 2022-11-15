@@ -1,0 +1,11 @@
+.section__image {
+    height: 85%;
+    width: 85%;
+    object-fit: cover;
+    border-radius: 31px;
+    transition: transform 0.1s;
+}
+
+.section__image:hover {
+    transform: scale(1.2);
+}

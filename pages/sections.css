@@ -1,0 +1,7 @@
+@import url(../vendor/normalize.css);
+@import url(../blocks/main-section/main-section.css);
+@import url(../blocks/button-next/button-next.css);
+@import url(../blocks/image/image.css);
+@import url(../blocks/image/_disabled/image_disabled.css);
+@import url(../blocks/button-back/button-back.css);
+@import url(../blocks/button-close/button-close.css);

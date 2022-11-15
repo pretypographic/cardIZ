@@ -1,14 +1,19 @@
 @import url(../vendor/normalize.css);
 @import url(../blocks/root/root.css);
+@import url(../blocks/plug/plug.css);
 /* основа */
-@import url(../blocks/main-page/main-page.css);
 /* главная страница */
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__title/header__title.css);
-@import url(../blocks/header/__background/header__background.css);
-@import url(../blocks/plug/plug.css);
 /* шапка */
+@import url(../blocks/main/main.css);
 @import url(../blocks/section/section.css);
+@import url(../blocks/section/__image/section__image.css);
+@import url(../blocks/section/__link/section__link.css);
 @import url(../blocks/section/_size/section_size_bigone.css);
+@import url(../blocks/section/_size/section_size_smallone.css);
 /* секции */
 @import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__image/footer__image.css);
+@import url(../blocks/footer/__title/footer__title.css);
+/* нижний колонтитул */
