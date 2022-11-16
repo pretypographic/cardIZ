@@ -1,15 +1,17 @@
-.footer__image {    
+.footer__image {  
     height: 42.5%;
     width: 85%;
     margin-top: 8%;
+    border: none;
+    cursor: pointer;
     background-image: url(../../../images/_portret.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    border-radius: 31px;
-    transition: transform 0.1s;
+    border-radius: 21px;
+    transition: transform 0.2s cubic-bezier(0.7, 0.03, 1, 1);
 }
 
 .footer__image:hover {
-    transform: scale(1.2);
+    transform: scale(1.18);
 }

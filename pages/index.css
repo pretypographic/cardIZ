@@ -1,15 +1,16 @@
 @import url(../vendor/normalize.css);
 @import url(../blocks/root/root.css);
-@import url(../blocks/plug/plug.css);
 /* основа */
-/* главная страница */
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__title/header__title.css);
 /* шапка */
 @import url(../blocks/main/main.css);
+/* главная страница */
 @import url(../blocks/section/section.css);
 @import url(../blocks/section/__image/section__image.css);
 @import url(../blocks/section/__link/section__link.css);
+@import url(../blocks/section/__title/section__title.css);
+@import url(../blocks/section/__title/_smallone/section__title_smallone.css);
 @import url(../blocks/section/_size/section_size_bigone.css);
 @import url(../blocks/section/_size/section_size_smallone.css);
 /* секции */
@@ -17,3 +18,8 @@
 @import url(../blocks/footer/__image/footer__image.css);
 @import url(../blocks/footer/__title/footer__title.css);
 /* нижний колонтитул */
+@import url(../blocks/contact/contact.css);
+@import url(../blocks/contact/_disabled/contact_disabled.css);
+@import url(../blocks/contact/__text/contact__text.css);
+@import url(../blocks/contact/__list/contact__list.css);
+@import url(../blocks/contact/__close-button/contact__close-button.css);

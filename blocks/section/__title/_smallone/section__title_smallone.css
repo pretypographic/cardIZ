@@ -1,0 +1,5 @@
+.section__title_smallone {
+    position: absolute;
+    top: calc(100% + 6px);
+    font-size: 15px;
+}

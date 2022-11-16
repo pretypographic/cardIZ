@@ -1,0 +1,17 @@
+.contact__close-button {
+    width: 30px;
+    height: 30px;
+    background-image: url(../../../images/__cross.png);
+    background-size: 100%;
+    position: fixed;
+    top: 25%;
+    right: 35%;
+    opacity: 0.2;
+    z-index: 3;
+    transform: rotate(90deg);
+    transition: opacity 0.4s;
+}
+
+.contact__close-button:hover {
+    opacity: 1;
+}

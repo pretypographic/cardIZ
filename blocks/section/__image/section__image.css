@@ -2,10 +2,10 @@
     height: 85%;
     width: 85%;
     object-fit: cover;
-    border-radius: 31px;
-    transition: transform 0.1s;
+    border-radius: 21px;
+    transition: transform 0.2s cubic-bezier(0.7, 0.03, 1, 1);
 }
 
-.section__image:hover {
-    transform: scale(1.2);
+.section__link:hover .section__image {
+    transform: scale(1.18);
 }
