@@ -7,3 +7,9 @@
     font-weight: 100;
     letter-spacing: 0.1em;
 }
+
+@media screen and (max-width: 800) {
+    .contact__list {
+        border: 1px solid red;
+    }
+}

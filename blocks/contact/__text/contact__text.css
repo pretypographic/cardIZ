@@ -7,3 +7,22 @@
     font-weight: 100;
     letter-spacing: 0.1em;
 }
+
+@media screen and (max-width: 1400px) {
+    .contact__text {
+        max-width: 50%;
+    }
+}
+
+@media screen and (max-width: 1040px) {
+    .contact__text {
+        max-width: 80%;
+    }
+}
+
+@media screen and (max-width: 800) {
+    .contact__text {
+        max-width: 60%;
+        max-height: 60%;
+    }
+}

@@ -19,3 +19,22 @@
     opacity: 1;
     z-index: 2;
 }
+
+@media screen and (max-width: 1610px) {
+    .section__title {
+        top: calc(100% + 4px);
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    .section__title {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 1040px) {
+    .section__title {
+        font-size: 12px;
+    }
+}

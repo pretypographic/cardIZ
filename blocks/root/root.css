@@ -3,7 +3,7 @@
     background-color: rgb(209, 209, 214);
     display: grid;
     grid-template-columns: auto repeat(4, max-content) auto;
-    grid-template-rows: 0.5fr repeat(3, 1fr) 0.5fr;
+    grid-template-rows: 0.5fr repeat(4, 1fr) 0.5fr;
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
     -webkit-text-size-adjust: 100%;
@@ -12,8 +12,9 @@
     text-rendering: optimizeLegibility;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 800px) {
     .root {
-        grid-template-columns: repeat(3, 1fr);
+        height: 100%;
+        grid-template-rows: 0.5fr repeat(5, 1fr) 0.5fr;
     }
 }

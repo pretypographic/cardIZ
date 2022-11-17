@@ -15,3 +15,22 @@
 .contact__close-button:hover {
     opacity: 1;
 }
+
+@media screen and (max-width: 1610px) {
+    .contact__close-button {
+        top: 20%;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    .contact__close-button {
+        right: 25%;
+    }
+}
+
+@media screen and (max-width: 10400px) {
+    .contact__close-button {
+        top: 10%;
+        right: 10%;
+    }
+}

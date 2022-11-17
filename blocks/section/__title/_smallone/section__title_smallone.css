@@ -3,3 +3,22 @@
     top: calc(100% + 6px);
     font-size: 15px;
 }
+
+@media screen and (max-width: 1610px) {
+    .section__title_smallone {
+        top: calc(100% + 3px);
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    .section__title_smallone {
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 1040px) {
+    .section__title_smallone {
+        font-size: 11px;
+    }
+}

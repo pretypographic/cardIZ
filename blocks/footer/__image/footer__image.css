@@ -1,4 +1,4 @@
-.footer__image {  
+.footer__image {
     height: 42.5%;
     width: 85%;
     margin-top: 8%;
@@ -14,4 +14,11 @@
 
 .footer__image:hover {
     transform: scale(1.18);
+}
+
+@media screen and (max-width: 800px) {
+    .footer__image {
+        height: 61.4%;
+        grid-row: -1/-2;
+    }
 }
