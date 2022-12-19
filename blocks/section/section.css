@@ -10,3 +10,17 @@
     justify-content: center;
     position: relative;
 }
+
+@media screen and (max-width: 800px) {
+    .section {
+        height: 20vw;
+        width: 20vw;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .section {
+        height: 24vw;
+        width: 24vw;
+    }
+}

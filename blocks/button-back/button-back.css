@@ -8,10 +8,16 @@
     left: 40px;
     opacity: 0.2;
     z-index: 3;
-    transform: rotate(90deg);
+    transform: rotate(180deg);
     transition: opacity 0.4s;
 }
 
 .button-back:hover {
     opacity: 1;
+}
+
+@media screen and (max-width: 800px) {
+    .button-back {
+        top: 90%;
+    }
 }

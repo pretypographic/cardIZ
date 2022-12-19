@@ -18,3 +18,10 @@
         grid-row: -1/-2;
     }
 }
+
+@media screen and (max-width: 414px) {
+    .footer {
+        width: 72%;
+        margin-top: 23%;
+    }
+}

@@ -1,29 +1,38 @@
 .header__title {
-    margin: 0 60px 0;
+    margin: 0 5vw 0;
     color: white;
-    font-size: 22px;
+    font-size: 1em;
     font-weight: 100;
     letter-spacing: 0.3em;
-    grid-column: 2/-3;
-    position: absolute;
+    text-shadow: 0 0 10px rgb(153 153 153);
 }
 
-@media screen and (max-width: 1610px) {
+@media screen and (max-width: 1600px) {
     .header__title {
-        margin: 0 30px 0;
+        margin: 0 1vw 0;
     }
 }
 
 @media screen and (max-width: 1400px) {
     .header__title {
-        margin: 0 40px 0;
-        font-size: 18px;
+        margin: 0 2vw 0;
     }
 }
 
 @media screen and (max-width: 1040px) {
     .header__title {
-        margin: 0 20px 0;
-        font-size: 15px;
+        margin: 0 3vw 0
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .header__title {
+        margin: 0 1vw 0
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .header__title {
+        margin: 0 3vw 0
     }
 }

@@ -9,8 +9,6 @@
 @import url(../blocks/section/section.css);
 @import url(../blocks/section/__image/section__image.css);
 @import url(../blocks/section/__link/section__link.css);
-@import url(../blocks/section/__title/section__title.css);
-@import url(../blocks/section/__title/_smallone/section__title_smallone.css);
 @import url(../blocks/section/_size/section_size_bigone.css);
 @import url(../blocks/section/_size/section_size_smallone.css);
 /* секции */

@@ -22,3 +22,10 @@
         grid-row: -1/-2;
     }
 }
+
+@media screen and (max-width: 414px) {
+    .footer__image {
+        height: 55.25%;
+    }
+}
+

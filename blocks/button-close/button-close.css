@@ -1,6 +1,8 @@
 .button-close {
     width: 30px;
     height: 30px;
+    border: none;
+    background-color: transparent;
     background-image: url(../../images/__cross.png);
     background-size: 100%;
     position: fixed;
